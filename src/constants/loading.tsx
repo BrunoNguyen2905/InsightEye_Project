@@ -1,0 +1,5 @@
+export const API_LOADING_SET = "API_LOADING_SET";
+export type API_LOADING_SET = typeof API_LOADING_SET;
+
+export const API_LOADING_UNSET = "API_LOADING_UNSET";
+export type API_LOADING_UNSET = typeof API_LOADING_UNSET;

@@ -1,0 +1,13 @@
+.popup-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popup-ul > li {
+  padding: 3px 8px;
+}
+
+.popup-ul > li:hover {
+  background-color: #dbdbdb;
+}

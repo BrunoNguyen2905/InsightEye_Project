@@ -1,0 +1,74 @@
+export const UPDATE_HELLO_STATE = "UPDATE_HELLO_STATE";
+export type UPDATE_HELLO_STATE = typeof UPDATE_HELLO_STATE;
+
+export const UPDATE_MAP_DATA = "UPDATE_MAP_DATA";
+export type UPDATE_MAP_DATA = typeof UPDATE_MAP_DATA;
+
+export const HANDLE_DRAWER = "HANDLE_DRAWER";
+export type HANDLE_DRAWER = typeof HANDLE_DRAWER;
+
+export const HANDLE_VIEWPORT = "HANDLE_VIEWPORT";
+export type HANDLE_VIEWPORT = typeof HANDLE_VIEWPORT;
+
+export const MAIN_MAP_HOVER = "MAIN_MAP_HOVER";
+export type MAIN_MAP_HOVER = typeof MAIN_MAP_HOVER;
+
+export const MAIN_MAP_SITE_DETAIL = "MAIN_MAP_SITE_DETAIL";
+export type MAIN_MAP_SITE_DETAIL = typeof MAIN_MAP_SITE_DETAIL;
+
+export const MAIN_MAP_DETAIL_SITE_STATE = "MAIN_MAP_DETAIL_SITE_STATE";
+export type MAIN_MAP_DETAIL_SITE_STATE = typeof MAIN_MAP_DETAIL_SITE_STATE;
+
+export const MAIN_MAP_SITE_DETAIL_TAB = "MAIN_MAP_SITE_DETAIL_TAB";
+export type MAIN_MAP_SITE_DETAIL_TAB = typeof MAIN_MAP_SITE_DETAIL_TAB;
+
+export const MAIN_MAP_DETAIL_SITE_TAB_CLOSE = "MAIN_MAP_DETAIL_SITE_TAB_CLOSE";
+export type MAIN_MAP_DETAIL_SITE_TAB_CLOSE = typeof MAIN_MAP_DETAIL_SITE_TAB_CLOSE;
+
+export const MAIN_MAP_ALARMS = "MAIN_MAP_ALARMS";
+export type MAIN_MAP_ALARMS = typeof MAIN_MAP_ALARMS;
+
+export const ADD_ALARM = "ADD_ALARM";
+export type ADD_ALARM = typeof ADD_ALARM;
+
+export const REMOVE_ALARM = "REMOVE_ALARM";
+export type REMOVE_ALARM = typeof REMOVE_ALARM;
+
+export const APPLICATION_INIT = "APPLICATION_INIT";
+export type APPLICATION_INIT = typeof APPLICATION_INIT;
+
+export const SETUP_AUTHENTICATION = "SETUP_AUTHENTICATION";
+export type SETUP_AUTHENTICATION = typeof SETUP_AUTHENTICATION;
+
+export const CHANGE_FORM_LOGIN = "CHANGE_FORM_LOGIN";
+export type CHANGE_FORM_LOGIN = typeof CHANGE_FORM_LOGIN;
+
+export const SUBMIT_FORM_LOGIN = "SUBMIT_FORM_LOGIN";
+export type SUBMIT_FORM_LOGIN = typeof SUBMIT_FORM_LOGIN;
+
+export const UPDATE_PROFILE_MENU = "UPDATE_PROFILE_MENU";
+export type UPDATE_PROFILE_MENU = typeof UPDATE_PROFILE_MENU;
+
+export const HANDLE_MAIN_MAP_STATE = "HANDLE_MAIN_MAP_STATE";
+export type HANDLE_MAIN_MAP_STATE = typeof HANDLE_MAIN_MAP_STATE;
+
+export const SIGN_IN_SILENT = "SIGN_IN_SILENT";
+export type SIGN_IN_SILENT = typeof SIGN_IN_SILENT;
+
+export const CHECKING_AUTHENTICATION = "CHECKING_AUTHENTICATION";
+export type CHECKING_AUTHENTICATION = typeof CHECKING_AUTHENTICATION;
+
+export const SET_ACCOUNT_ID = "SET_ACCOUNT_ID";
+export type SET_ACCOUNT_ID = typeof SET_ACCOUNT_ID;
+
+export const LOGOUT = "LOGOUT";
+export type LOGOUT = typeof LOGOUT;
+
+export const LIB_ACTIVE = "LIB_ACTIVE";
+export type LIB_ACTIVE = typeof LIB_ACTIVE;
+
+export const USER_BANNED = "USER_BANNED";
+export type USER_BANNED = typeof USER_BANNED;
+
+export * from "../scenes/auth/constants";
+export * from "../scenes/video-wall/constants";

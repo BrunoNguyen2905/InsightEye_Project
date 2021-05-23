@@ -1,0 +1,11 @@
+export const GET_VERSION_JSON = "GET_VERSION_JSON";
+export type GET_VERSION_JSON = typeof GET_VERSION_JSON;
+
+export const UPDATE_VERSION_JSON = "UPDATE_VERSION_JSON";
+export type UPDATE_VERSION_JSON = typeof UPDATE_VERSION_JSON;
+
+export const START_BOARD = "START_BOARD";
+export type START_BOARD = typeof START_BOARD;
+
+export const START_INCIDENT = "START_INCIDENT";
+export type START_INCIDENT = typeof START_INCIDENT;

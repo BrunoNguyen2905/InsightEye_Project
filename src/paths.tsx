@@ -1,0 +1,23 @@
+export default {
+  home: "/",
+  board: "/board",
+  incident: "/board/incident",
+  incidentDetail: "/board/incident/:id",
+  boardSiteDetail: "/board/site/:id",
+  boardCameraView: "/board/camera-view/:id",
+  boardCamera360: "/board/camera-360/:id",
+  cctv: "/cctv",
+  signin: "/auth/signin",
+  forgot: "/auth/forgot",
+  resetPassword: "/auth/resetpassword/:id/:token",
+  users: "/users",
+  logsMgnt: "/logs-mgnt",
+  videoWall: "/video-wall",
+  profile: "/profile",
+  player360: "/player360",
+  callback: "/callback",
+  lib: "/libs",
+  libSelect: "/libs/select",
+  libNew: "/libs/new",
+  libImport: "/libs/import"
+};
